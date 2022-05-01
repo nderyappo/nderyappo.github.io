@@ -1,0 +1,66 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+u{
+    font-weight: 500;
+}
+
+p{
+    font-weight: 600;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+div.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+footer{
+    
+    margin-top: 40px;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+section#aboutMe div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#aboutSite{
+    font-weight: 300;
+    font-style: italic;
+}
+
+#themeButton{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+a:link.dark{
+    color: yellow;
+}
+
+a:visited.dark{
+    color: orange;
+}
+
+hr.light{
+    border: 1px black solid;
+}
+
+hr.dark{
+    border: 1px rgb(240, 240, 235) solid;
+}
+
